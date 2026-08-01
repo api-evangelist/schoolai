@@ -1,0 +1,26 @@
+generated: '2026-07-21'
+method: searched
+probe: true
+source: https://schoolai.com/trust
+url: https://schoolai.com/trust
+compliance_url: https://schoolai.com/trust/compliance
+certifications:
+- SOC 2 Type 2
+- FERPA
+- COPPA
+- 1EdTech TrustEd Apps
+- FIPPA
+- ESSA Tier 3
+evidence:
+- source: https://schoolai.com/trust/compliance
+  keywords:
+  - soc 2 type 2
+  - ferpa
+  - coppa
+  - 1edtech trusted apps
+  - fippa
+  - essa tier 3
+- source: https://schoolai.com/trust
+  keywords:
+  - compliance certification
+  - trust center

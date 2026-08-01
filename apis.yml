@@ -1,7 +1,15 @@
 aid: schoolai
 name: SchoolAI
-description: 'SchoolAI is a company surfaced as a portfolio company of homebrew and added to the API Evangelist
-  network as a stub for enrichment. Sector: ai. This profile is a lead awaiting the enrichment pipeline.'
+description: 'SchoolAI is an AI platform built specifically for K-12 and higher education
+  that helps teachers personalize learning, monitor student progress in real time,
+  and provide timely interventions while keeping educators in control of student safety.
+  Its core surfaces include Spaces (teacher-designed AI learning environments), Mission
+  Control (a live dashboard of student engagement and where learners are struggling),
+  PowerUps (focused AI activities for creation, practice, and exploration), a browser
+  extension, and professional-learning programs. The platform integrates with LMS and
+  identity systems via Canvas LTI, Google Classroom, and Google Workspace, and is FERPA,
+  COPPA, SOC 2 Type 2, 1EdTech TrustEd Apps, FIPPA, and ESSA Tier 3 validated. Backed
+  by Homebrew; surfaced as a portfolio-lead company in the API Evangelist network.'
 url: https://raw.githubusercontent.com/api-evangelist/schoolai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,12 +17,30 @@ x-backed-by:
 - homebrew
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://schoolai.com/opengraph-image.png
 tags:
 - Company
 - Ai
+- Education
+- EdTech
+- Learning
+- Teachers
+- K-12
+- Higher Education
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +50,32 @@ maintainers:
 common:
 - type: Website
   url: https://schoolai.com
+- type: Documentation
+  url: https://help.schoolai.com
+- type: Support
+  url: https://help.schoolai.com
+- type: Pricing
+  url: https://schoolai.com/pricing
+- type: SignUp
+  url: https://app.schoolai.com/welcome/sign-up
+- type: Blog
+  url: https://schoolai.com/blog
+- type: TermsOfService
+  url: https://schoolai.com/terms
+- type: PrivacyPolicy
+  url: https://schoolai.com/trust/privacy-notices
+- type: TrustCenter
+  url: security/schoolai-trust-center.yml
+- type: Compliance
+  url: https://schoolai.com/trust
+- type: Security
+  url: https://schoolai.com/trust/compliance
+- type: VulnerabilityDisclosure
+  url: security/schoolai-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/schoolai-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 3
+  pass: local-v1
