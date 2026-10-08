@@ -1,0 +1,40 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://schoolai.com/pricing
+sources:
+- https://schoolai.com/pricing
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T104522
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: negotiated
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-10-07'
+  managed_tier: Pro
+published: false
+note: Tiered plan page with no numeric prices; only feature limits and 'Get started'/'Get a demo' CTAs.
+plan_count: 3
+plans:
+- name: Free Trial
+  price_text: Get started
+  period: none
+  included_quota: 5 Space launches per year; PowerUps, Tools, Assistants; limited Browser Extension; 200,000+
+    premade Spaces
+- name: Pro
+  price_text: Get started
+  period: none
+  included_quota: Everything in Free Trial, plus unlimited Space launches & sessions, SIS rostering, LMS
+    integration, CSM
+- name: Scale
+  price_text: Get started
+  period: none
+  included_quota: Everything in Pro, plus Student Portals & AI Sidekick, student-level insights, district
+    tools
+rate_limit_statements:
+- 5 Space launches per year
+- 50MB limit
+- Available within Space session limit. 10MB limit.
